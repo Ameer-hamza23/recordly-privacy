@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Real Recordly Android recording demonstration, with privacy edits and English narration.">
+  <title>Recordly · Android recording demonstration</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #0b1220; color: #faf5eb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(100% - 40px, 1000px); margin: 40px auto; }
+    header { margin-bottom: 30px; }
+    .brand { font-weight: 750; font-size: 25px; display: flex; gap: 12px; align-items: center; }
+    .dot { width: 18px; height: 18px; border-radius: 50%; background: #ff7a00; }
+    .layout { display: grid; grid-template-columns: minmax(240px, 420px) 1fr; gap: 48px; align-items: start; }
+    video { display: block; width: 100%; max-height: 78vh; background: #000; border: 1px solid #293447; border-radius: 16px; }
+    h1 { font-size: clamp(27px, 5vw, 40px); line-height: 1.15; margin: 4px 0 22px; letter-spacing: -.025em; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    p, li { color: #bdc7d5; line-height: 1.65; font-size: 16px; }
+    ul { padding-left: 20px; }
+    li { padding-bottom: 6px; }
+    a { color: #ffab5c; text-underline-offset: 4px; }
+    a:focus-visible { outline: 3px solid #fff; outline-offset: 5px; }
+    .note { border-left: 3px solid #ff7a00; padding-left: 16px; }
+    footer { margin-top: 40px; padding-top: 24px; border-top: 1px solid #293447; color: #9da9b9; font-size: 14px; }
+    @media (max-width: 700px) { main { margin: 24px auto; } .layout { grid-template-columns: 1fr; gap: 28px; } video { max-width: 420px; margin-inline: auto; } }
+  </style>
+</head>
+<body>
+<main>
+  <header><div class="brand"><span class="dot" aria-hidden="true"></span>Recordly</div></header>
+  <div class="layout">
+    <video controls playsinline preload="metadata" poster="poster.jpg" aria-label="Recordly Android demonstration with English narration">
+      <source src="recordly-chess-demo.mp4" type="video/mp4">
+      <track src="captions-en.vtt" kind="captions" srclang="en" label="English">
+      Your browser cannot play this video. <a href="recordly-chess-demo.mp4">Download the MP4.</a>
+    </video>
+    <section>
+      <h1>Android recording demonstration</h1>
+      <p>A 52-second demonstration of Recordly recording another app while its audio and camera controls are used.</p>
+      <h2>Shown in the video</h2>
+      <ul>
+        <li>Start screen recording, then open a chess app.</li>
+        <li>Select microphone, game audio, both sources, or mute.</li>
+        <li>Enable the optional camera overlay during recording.</li>
+        <li>View the ongoing Android recording notification.</li>
+      </ul>
+      <p class="note">Real app footage. Faces and personal details are obscured, and English explanatory narration is added. A short original microphone sample has its voice altered for privacy. No app actions are generated or reconstructed.</p>
+      <p><a href="recordly-chess-demo.mp4">Open or download the video</a></p>
+      <p><a href="../">Privacy policy and support</a></p>
+    </section>
+  </div>
+  <footer>Zenith Stack Studio · <a href="mailto:zenith.stack.studio@gmail.com">zenith.stack.studio@gmail.com</a></footer>
+</main>
+</body>
+</html>
