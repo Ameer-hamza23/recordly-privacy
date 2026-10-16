@@ -1,11 +1,30 @@
 {
   "privacy_revision": 2,
-  "file": "recordly-chess-demo-v2.mp4",
-  "sha256": "31e98a84c3895e7c7782028d614cafe5e58cf1cfc5c08cd24089f0ace908750e",
+  "file": "recordly-chess-demo-v3.mp4",
+  "sha256": "57127e1eb69ea208c8b9d773795a66d36a0fb5f0479c9d35e645840a543c6874",
   "seconds": 52,
   "frames": 1560,
   "opaque_coverage_validation": "passed",
   "camera_replacement": "illustrated character added in editing; moving opening fully covered",
-  "narration": "English explanatory narration",
-  "date": "2026-10-16"
+  "narration": "Kokoro v1.0 af_heart, English US, generated locally",
+  "date": "2026-10-16",
+  "voice_revision": 3,
+  "voice_license": "Apache-2.0 model / MIT runtime",
+  "voice_generation": {
+    "engine": "Kokoro v1.0 / kokoro-onnx",
+    "voice": "af_heart",
+    "language": "English (US)",
+    "model_license": "Apache-2.0",
+    "runtime_license": "MIT",
+    "model_source": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "runtime_source": "https://github.com/thewh1teagle/kokoro-onnx",
+    "generated_locally": true,
+    "original_media_uploaded": false,
+    "paid_subscription_or_api_key_required": false,
+    "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "voice_data_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "runtime_version": "0.6.1",
+    "sections": 8,
+    "date": "2026-10-16"
+  }
 }
